@@ -85,10 +85,10 @@ export default function Home(props){
     </Category>
   
     <Section> 
-      <Portifolio path={'./portifolio'} layout={layout}  /> 
-      <Portifolio path={'./portifolio'} layout={layout2}  /> 
-      <Portifolio path={'./portifolio'} layout={layout3}  /> 
-      <Portifolio path={'./portifolio'} layout={layout4}  /> 
+      <Portifolio pp={'./Portifolio'} layout={layout}  /> 
+      <Portifolio pp={'./Portifolio'} layout={layout2}  /> 
+      <Portifolio pp={'./portifolio'} layout={layout3}  /> 
+      <Portifolio pp={'./portifolio'} layout={layout4}  /> 
     </Section>
 
 <Category>
