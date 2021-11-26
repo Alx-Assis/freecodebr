@@ -40,7 +40,7 @@ export default function Home(props){
     </Nav>
     
        <Banner>
-
+         <Image src={banner} layout='responsive' alt="bannerImag"/>
    </Banner>
     <Category>
     <h1 id="soluction">Soluções</h1>
