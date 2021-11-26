@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import { Nav,App,Banner,Category, Section, Carrossel} from './styles/Home';
+import { Nav,App,Banner,Category, Section, Carrossel} from '../components/Home';
 
 //import components
 import Cards from '../components/Cards';

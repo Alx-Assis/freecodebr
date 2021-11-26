@@ -1,7 +1,6 @@
 import styled from "styled-components"
-import React from "react"
 
-export const App =styled.div`
+ export  const App =styled.div`
  display:flex;
  flex-direction:column;
  justify-content:center;
@@ -9,7 +8,7 @@ export const App =styled.div`
   
  
 `
-export const  Nav=styled.nav`
+export  const  Nav=styled.nav`
  display:flex;
  justify-content:center;
  flex-direction:row;
@@ -37,12 +36,12 @@ a{
 }
 `
 
- export const Banner =  styled.main`
+ export  const Banner =  styled.main`
  display:block;
  width:100vw;
  height:auto;
 `
-export const Category = styled.div`
+export  const Category = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:center;

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Navigation from '../components/Navigation'
-import {Nav} from './styles/Home'
+import {Nav} from '../components/Home'
 
 export default function About(){
   return(

@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import styled from 'styled-components'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Card=styled.div`
 display:flex;
@@ -39,24 +39,23 @@ line-height: 19px;
 color: #000000;
     }
 
-    .card :hover{
-    box-shadow:10px 10px 17px rgba(1, 1, 1, 0.25);
-}
+   }
    
 `
-export default function Cards(props){
+export default function Cards(props) {
     
     return(
-        <Link  href='/about'>
+               <Link href={"/"}>
             <Card>
             <div className="imageContainer">
-            <Image src={props.img} width={52} height={52} alt='web'/>
+                <Image src={props.img} width={52} height={52} alt='web'/>
             </div>
                 <div className="cardText">
-                <h1>{props.soluctions}</h1>
-                <p>{props.description}</p>
-            </div>         
-        </Card>
-        </Link>
-    )
+                  <h1>{props.soluctions}</h1>
+                  <p>{props.description}</p>
+                </div>
+            </Card>
+            </Link>
+
+         )
 }

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import './styles/styles.modules.css'
 import GlobalStyles from './styles/global'
 
-function App({ Component, pageProps }: AppProps) {
+function App( {Component, pageProps} : AppProps) {
    return (
     <>
       <Head>

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {Nav} from './styles/Home'
+import {Nav} from '../components/Home'
 import Navigation from '../components/Navigation'
 export default function Contatos(){
   return(
